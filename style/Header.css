@@ -220,12 +220,12 @@ header .sidemenu .line-bottom.active {
     width: 220px;
   }
 }
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   .header .logo a img {
     margin-top: 5px;
     width: 180px;
   }
-}
+} */
 @media (max-width: 767px) {
   .parent-div {
     margin-left: 1.2rem;
