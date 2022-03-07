@@ -227,6 +227,9 @@ header .sidemenu .line-bottom.active {
   }
 }
 @media (max-width: 767px) {
+  .parent-div {
+    margin-left: 1.2rem;
+  }
   .header .sidemenu {
     width: 100%;
   }
