@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- linke -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    /> -->
+    <link
+      rel="icon"
+      style="object-fit: cover"
+      href="assets/images/favicon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="./../circle/circle-progress.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+      integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./../style/style.css" />
+    <link rel="stylesheet" href="./../style/global.css" />
+    <link rel="stylesheet" href="./../style/Header.css" />
+    <link rel="stylesheet" href="./../style/Skills-and-Charts.css" />
+    <link rel="stylesheet" href="./../style/aboutme.css" />
+    <link rel="stylesheet" href="./../style/work.css" />
+
+    <title>Xcoder - home</title>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <div class="wrap d-flex">
+          <h1 class="logo">
+            <a href=""><img src="./../assets/images/logo2.png" alt="LOGO" /></a>
+          </h1>
+          <h1 class="logo-small">
+            <a href=""
+              ><img src="./../assets/images/favicon.png" alt="LOGO"
+            /></a>
+          </h1>
+          <nav class="menu">
+            <ul>
+              <li><a href="" class="nav-link">Home</a></li>
+              <li><a href="" class="nav-link">About</a></li>
+              <li><a href="" class="nav-link">Skills</a></li>
+              <li><a href="" class="nav-link">Work</a></li>
+              <li>
+                <a href="" class="btn"> Hire me</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="sidemenu-toggler">
+          <span class="line-top"></span>
+          <span class="line-bottom"></span>
+        </div>
+        <div class="sidemenu">
+          <div class="close">
+            <span class="line-top"></span>
+            <span class="line-bottom"></span>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Skills</a></li>
+              <li><a href="">Work</a></li>
+              <li><a href="" class="btn">Hire me</a></li>
+            </ul>
+          </nav>
+          <footer>
+            <div class="social">
+              <a href="" class="fab fa-facebook-f"></a>
+              <a href="" class="fab fa-twitter"></a>
+              <a href="" class="fab fa-instagram"></a>
+              <a href="" class="fab fa-github"></a>
+              <a href="" class="fab fa-linkedin"></a>
+            </div>
+            <p>2021-2022 Made with <i class="fas fa-heart"></i> by X{coder}</p>
+          </footer>
+        </div>
+      </header>
+    </main>
+    <br />
+
+    <!-- Hero Section -->
+
+    <div
+      class="container lg:mt-16 mt-8 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+    >
+      <div class="flex flex-wrap md:flex-nowrap">
+        <nav
+          class="z-90 inline-block lg:mr-24 lg:w-4 fixed left-14 hidden xl:block z-50"
+        >
+          <div
+            class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36"
+          >
+            <a
+              href="#"
+              class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body"
+            >
+            
+              <span
+                class="bg-black px-2 py-1 rounded-md ml-10 opacity-0 text-white"
+                >
+                Home</span
+              >
+            </a>
+            <a
+              href="#work2"
+              class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
+            >
+              <span
+                class="bg-black px-2 py-1 rounded-md ml-10 opacity-0 text-white"
+                >Skills</span
+              >
+            </a>
+            <a
+              href="#work"
+              class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
+            >
+              <span
+                class="bg-black px-2 py-1 rounded-md ml-10 opacity-0 text-white"
+                >Work</span
+              >
+            </a>
+            <a
+              href="#hire"
+              class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
+            >
+              <span
+                class="bg-black px-2 py-1 rounded-md ml-10 opacity-0 text-white"
+                >Hire&nbspme</span
+              >
+            </a>
+          </div>
+        </nav>
+
+        <div
+          class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36"
+        >
+          <h1
+            class="text-white font-bold text-4xl md:text-6xl lg:text-7xl text-center md:text-left"
+          >
+            Building<br />
+            beautiful web experiences.
+          </h1>
+          <div class="w-full flex justify-center md:justify-start">
+            <button class="btn mt-12 space-x-3 z-20">
+              <div>
+               
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  stroke="150"
+                  delay="40"
+                  style="width: 35px; height: 35px"
+                >
+                </lord-icon>
+              </div>
+              <a> View my work.</a>
+            </button>
+          </div>
+        </div>
+        <img
+          src="./../assets/images/man.png"
+          alt="Man"
+          class="lg:w-3/4 md:w-full mt-12 md:absolute lg:-mt-6 right-0 -z-1"
+        />
+      </div>
+    </div>
+
+    <!-- About Us Section -->
+    <section class="about py-20">
+      <div class="w-3/4 md:w-4/4 mx-auto px-2 xl:pr-5">
+        <h1 class="secondary-title lg:pl-20">About me 
+          <lord-icon
+          src="https://cdn.lordicon.com/nobciafz.json"
+          trigger="loop"
+          colors="primary:#ffffff,secondary:#3f3fff"
+          stroke="60"
+          delay="40"
+          style="width: 60px; height: 60px"
+        >
+        </lord-icon>
+        </h1>
+        <p class="section-paragraph lg:pl-20">
+          I’ve had the pleasure of working with multiple Fortune 500 <br />
+          companies, designing and implementing both frontend and backend.
+        </p>
+      </div>
+      <div class="relative mt-20 lg:mt-24">
+        <div
+          class="flex flex-col lg:flex-row items-center justify-center gap-x-24"
+        >
+          <div class="flex flex-1 justify-center z-10 lg:mb-0">
+            <img
+              class="img-responsive w-5/6 h-5/6 lg:w-2/6 lg:h-2/6 sm: h-3/4"
+              src="./../assets/svgs/guy.svg"
+              alt=""
+            />
+          </div>
+          <div class="flex flex-1 p-10 flex-col items-center lg:items-start">
+            <h1 class="heading lg:text-3xl font-bold text-2xl">
+              I'm Mohammed Isa
+            </h1>
+
+            <p
+              class="section-paragraph my-4 text-center lg:text-left sm:w-3/4 lg:w-full"
+            >
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit iste
+              quasi velit atque minus excepturi, blanditiis odit enim molestias
+              incidunt ex reprehenderit nobis, deserunt, aliquid quos aut facere
+              sint omnis?
+            </p>
+            <h1 class="heading lg:text-xl my-2">Technologies that I use</h1>
+            <div class="tag">
+              <ul>
+                <li><span>HTML</span></li>
+                <li><span>CSS</span></li>
+                <li><span>Javascript</span></li>
+                <li><span>jQuery</span></li>
+                <li><span>Bootstrap</span></li>
+                <li><span>Tailwind CSS</span></li>
+                <li><span>ReactJS</span></li>
+                <li><span>Dart & flutter</span></li>
+              </ul>
+            </div>
+
+            <button class="btn mt-12 space-x-3 z-20">
+              <div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/nocovwne.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  stroke="90"
+                  delay="40"
+                  style="width: 35px; height: 35px"
+                >
+                </lord-icon>
+              </div>
+              <a> Download CV</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--What I do -->
+    <section class="pt-20">
+      <div class="w-3/4 md:w-4/4 mx-auto px-2 xl:pr-5">
+        <h1 class="secondary-title lg:pl-20">What I do 
+          <lord-icon
+          src="https://cdn.lordicon.com/puvaffet.json"
+          trigger="loop"
+          colors="primary:#ffffff,secondary:#3f3fff"
+          stroke="90"
+          delay="40"
+          style="width: 60px; height: 60px"
+        >
+        </lord-icon>
+        </h1>
+        <p class="section-paragraph lg:pl-20">
+          I’ve had the pleasure of working with multiple Fortune 500 <br />
+          companies, designing and implementing both frontend and backend.
+        </p>
+      </div>
+      <div
+        class="lg:pl-20 pl-0 sm:w-3/4 mx-auto flex items-center justify-center flex-col lg:flex-row gap-3"
+      >
+        <a
+          href="#"
+          class="text-center p-6 max-w-sm rounded-lg border-2 border-nav bg-body"
+        >
+
+          <lord-icon
+            src="https://cdn.lordicon.com/dtgezzsi.json"
+            trigger="loop"
+            colors="primary:#ffffff,secondary:#3f3fff"
+            stroke="90"
+            delay="40"
+            style="width: 75px; height: 75px"
+          >
+          </lord-icon>
+          <h5
+            class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            Web Development
+          </h5>
+          <p class="card-p">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+        </a>
+        <a
+          href="#"
+          class="text-center p-6 max-w-sm rounded-lg border-2 border-nav bg-body"
+        >
+
+          <lord-icon
+            src="https://cdn.lordicon.com/anihkfxp.json"
+            trigger="loop"
+            colors="primary:#ffffff,secondary:#3f3fff"
+            stroke="90"
+            delay="40"
+            style="width: 75px; height: 75px"
+          >
+          </lord-icon>
+          <h5
+            class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            App Development
+          </h5>
+          <p class="card-p">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+        </a>
+        <a
+          href="#"
+          class="text-center p-6 max-w-sm rounded-lg border-2 border-nav bg-body"
+        >
+          
+          <lord-icon
+            src="https://cdn.lordicon.com/ijznovhy.json"
+            trigger="loop"
+            colors="primary:#ffffff,secondary:#3f3fff"
+            stroke="90"
+            delay="40"
+            style="width: 75px; height: 75px"
+          >
+          </lord-icon>
+          <h5
+            class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            Graphic Designing
+          </h5>
+          <p class="card-p">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+        </a>
+      </div>
+      <div
+        class="mt-3 lg:pl-20 pl-0 sm:w-3/4 mx-auto flex items-center justify-center flex-col lg:flex-row gap-3"
+      >
+        <a
+          href="#"
+          class="text-center p-6 max-w-sm rounded-lg border-2 border-nav bg-body"
+        >
+          
+          <lord-icon
+            src="https://cdn.lordicon.com/qhgmphtg.json"
+            trigger="loop"
+            colors="primary:#ffffff,secondary:#3f3fff"
+            stroke="60"
+            delay="40"
+            style="width: 75px; height: 75px"
+          >
+          </lord-icon>
+          <h5
+            class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            Desktop Apps
+          </h5>
+          <p class="card-p">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+        </a>
+        <a
+          href="#"
+          class="text-center p-6 max-w-sm rounded-lg border-2 border-nav bg-body"
+        >
+          
+          <lord-icon
+            src="https://cdn.lordicon.com/joeivjls.json"
+            trigger="loop"
+            colors="primary:#ffffff,secondary:#3f3fff"
+            stroke="90"
+            delay="40"
+            style="width: 75px; height: 75px"
+          >
+          </lord-icon>
+          <h5
+            class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            Ui Design
+          </h5>
+          <p class="card-p">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+        </a>
+        <a
+          href="#"
+          class="text-center p-6 max-w-sm rounded-lg border-2 border-nav bg-body"
+        >
+          
+          <lord-icon
+            src="https://cdn.lordicon.com/ktxpktdd.json"
+            trigger="loop"
+            colors="primary:#ffffff,secondary:#3f3fff"
+            stroke="90"
+            delay="40"
+            style="width: 75px; height: 75px"
+          >
+          </lord-icon>
+          <h5
+            class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            Game Development
+          </h5>
+          <p class="card-p">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Skills & charts markup start -->
+    <section class="skills flex justify-center" id="work2">
+      <div class="relative mt-20 lg:mt-24">
+        <div
+          class="flex flex-col lg:flex-row items-center justify-center gap-0"
+        >
+          <div class="flex flex-1 justify-center z-10 lg:mb-0">
+            <div class="mh-skills-inner">
+              <div class="mh-professional-skill">
+                <h1
+                  class="skill-heading heading lg:text-3xl font-bold text-2xl pb-5 px-14 md:px-28 sm:px-16"
+                >
+                  Technical Skills
+                  
+                </h1>
+                <div class="each-skills">
+                  <div class="candidatos">
+                    <div class="parcial">
+                      <div class="info">
+                        <div class="name text-white">Javascript</div>
+                        <div class="percentage-num text-white">50%</div>
+                      </div>
+                      <div class="progressBar">
+                        <div class="percentagem" style="width: 50%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="candidatos">
+                    <div class="parcial">
+                      <div class="info">
+                        <div class="name text-white">HTML</div>
+                        <div class="percentage-num text-white">70%</div>
+                      </div>
+                      <div class="progressBar">
+                        <div class="percentagem" style="width: 70%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="candidatos">
+                    <div class="parcial">
+                      <div class="info">
+                        <div class="name text-white">CSS</div>
+                        <div class="percentage-num text-white">70%</div>
+                      </div>
+                      <div class="progressBar">
+                        <div class="percentagem" style="width: 70%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="candidatos">
+                    <div class="parcial">
+                      <div class="info">
+                        <div class="name text-white">ReactJS</div>
+                        <div class="percentage-num text-white">50%</div>
+                      </div>
+                      <div class="progressBar">
+                        <div class="percentagem" style="width: 50%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="candidatos">
+                    <div class="parcial">
+                      <div class="info">
+                        <div class="name text-white">Dart & flutter</div>
+                        <div class="percentage-num text-white">40%</div>
+                      </div>
+                      <div class="progressBar">
+                        <div class="percentagem" style="width: 40%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="candidatos">
+                    <div class="parcial">
+                      <div class="info">
+                        <div class="name text-white">Bootstrap</div>
+                        <div class="percentage-num text-white">50%</div>
+                      </div>
+                      <div class="progressBar">
+                        <div class="percentagem" style="width: 50%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="candidatos">
+                    <div class="parcial">
+                      <div class="info">
+                        <div class="name text-white">Tailwind CSS</div>
+                        <div class="percentage-num text-white">50%</div>
+                      </div>
+                      <div class="progressBar">
+                        <div class="percentagem" style="width: 50%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="candidatos">
+                    <div class="parcial">
+                      <div class="info">
+                        <div class="name text-white">jQuery</div>
+                        <div class="percentage-num text-white">50%</div>
+                      </div>
+                      <div class="progressBar">
+                        <div class="percentagem" style="width: 50%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-1 p-10 flex-col items-center lg:items-start">
+            <h1
+              class="skill-heading heading lg:text-3xl font-bold text-2xl pb-5 px-14 md:px-28 sm:px-16"
+            >
+              Professional&nbsp;Skills 
+
+            </h1>
+            <div class="mh-professional-skills">
+              <ul class="mh-professional-progress">
+                <li>
+                  <div
+                    class="mh-progress mh-progress-circle"
+                    data-progress="65"
+                  ></div>
+                  <div class="pr-skill-name text-white">Communication</div>
+                </li>
+                <li>
+                  <div
+                    class="mh-progress mh-progress-circle"
+                    data-progress="75"
+                  ></div>
+                  <div class="pr-skill-name text-white">Team work</div>
+                </li>
+                <li>
+                  <div
+                    class="mh-progress mh-progress-circle"
+                    data-progress="65"
+                  ></div>
+                  <div class="pr-skill-name text-white">Project Management</div>
+                </li>
+                <li>
+                  <div
+                    class="mh-progress mh-progress-circle"
+                    data-progress="66"
+                  ></div>
+                  <div class="pr-skill-name text-white">Creativity</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & charts markup start -->
+
+    <!-- Work -->
+    <section class="pt-20" id="work">
+      <div class="w-3/4 md:w-4/4 mx-auto px-2 xl:pr-5">
+        <h1 class="secondary-title lg:pl-20">My Work 
+          <lord-icon
+                  src="https://cdn.lordicon.com/xxtkutpo.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#3f3fff"
+                  stroke="60"
+                  delay="40"
+                  style="width: 50px; height: 50px"
+                >
+                </lord-icon>
+        </h1>
+        <p class="section-paragraph lg:pl-20">
+          I’ve had the pleasure of working with multiple Fortune 500 <br />
+          companies, designing and implementing both frontend and backend.
+        </p>
+      </div>
+      <div
+        class="lg:pl-20 pl-0 sm:w-3/4 mx-auto flex items-center justify-center flex-col lg:flex-row gap-3"
+      >
+        <div
+          class="card  p-3 max-w-sm rounded-lg border-2 border-nav bg-body" id="work-card"
+        >
+          <img
+            src="./../assets/images/amazon-clone.png"
+            alt=""
+          />
+          <div class="click-open mt-1">
+            <lord-icon
+            src="https://cdn.lordicon.com/tyounuzx.json"
+                trigger="loop"
+                colors="primary:#ffffff,secondary:#3f3fff"
+                stroke="90"
+                delay="40"
+                style="width: 40px; height: 40px"
+                >
+            </lord-icon>
+            <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">See Info</span>
+          </div>
+          <div class="card-content">
+
+            <h1 class="text-xl font-bold text-white">Amazon Clone</h1>
+            <p><h3 class="text-lg text-white"><span class="text-xl block">Technologies I used:</span> NextJS, HTML, CSS, Redux, Tailwind CSS, Stripe, Firebase</h3> </p>
+            <a href="https://amazon-2-0-liart.vercel.app/" class="visit-icon" target="_blank">
+            <lord-icon
+              src="https://cdn.lordicon.com/udwhdpod.json"
+              trigger="loop"
+              colors="primary:#ffffff,secondary:#3f3fff"
+              stroke="90"
+              delay="40"
+              style="width: 40px; height: 40px"
+              class="icon"
+            >
+            </lord-icon>
+            <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">Visit Site</span>
+            </a>
+          </div>
+        </div>
+        <div
+          class="card  p-3 max-w-sm rounded-lg border-2 border-nav bg-body" id="work-card1"
+        >
+          <img
+            src="./../assets/images/food.png"
+            alt=""
+          />
+          <div class="click-open mt-1">
+            <lord-icon
+            src="https://cdn.lordicon.com/tyounuzx.json"
+                trigger="loop"
+                colors="primary:#ffffff,secondary:#3f3fff"
+                stroke="90"
+                delay="40"
+                style="width: 40px; height: 40px"
+                >
+            </lord-icon>
+            <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">See Info</span>
+          </div>
+          <div class="card-content">
+
+            <h1 class="text-xl font-bold text-white">Amazon Clone</h1>
+            <p><h3 class="text-lg text-white"><span class="text-xl block">Technologies I used:</span> NextJS, HTML, CSS, Redux, Tailwind CSS, Stripe, Firebase</h3> </p>
+            <a href="http://food.isa-codes.co/" class="visit-icon" target="_blank">
+             
+            <lord-icon
+              src="https://cdn.lordicon.com/udwhdpod.json"
+              trigger="loop"
+              colors="primary:#ffffff,secondary:#3f3fff"
+              stroke="90"
+              delay="40"
+              style="width: 40px; height: 40px"
+              class="icon"
+            >
+            </lord-icon>
+            <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">Visit Site</span>
+            </a>
+          </div>
+        </div>
+        <div
+          class="card  p-3 max-w-sm rounded-lg border-2 border-nav bg-body" id="work-card2"
+        >
+          <img
+            src="./../assets/images/target.png"
+            alt=""
+          />
+          <div class="click-open mt-1">
+            <lord-icon
+            src="https://cdn.lordicon.com/tyounuzx.json"
+                trigger="loop"
+                colors="primary:#ffffff,secondary:#3f3fff"
+                stroke="90"
+                delay="40"
+                style="width: 40px; height: 40px"
+                >
+            </lord-icon>
+            <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">See Info</span>
+          </div>
+          <div class="card-content">
+
+            <h1 class="text-xl font-bold text-white">Amazon Clone</h1>
+            <p><h3 class="text-lg text-white"><span class="text-xl block">Technologies I used:</span> NextJS, HTML, CSS, Redux, Tailwind CSS, Stripe, Firebase</h3> </p>
+            <a href="https://target-art.in/" class="visit-icon" target="_blank">
+            <lord-icon
+              src="https://cdn.lordicon.com/udwhdpod.json"
+              trigger="loop"
+              colors="primary:#ffffff,secondary:#3f3fff"
+              stroke="90"
+              delay="40"
+              style="width: 40px; height: 40px"
+              class="icon"
+            >
+            </lord-icon>
+            <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">Visit Site</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mt-3 lg:pl-20 pl-0 sm:w-3/4 mx-auto flex items-center justify-center flex-col lg:flex-row gap-3"
+      >
+      <div
+      class="card  p-3 max-w-sm rounded-lg border-2 border-nav bg-body" id="work-card3"
+    >
+      <img
+        src="./../assets/images/travel.png"
+        alt=""
+      />
+      <div class="click-open mt-1">
+
+        <lord-icon
+        src="https://cdn.lordicon.com/tyounuzx.json"
+            trigger="loop"
+            colors="primary:#ffffff,secondary:#3f3fff"
+            stroke="90"
+            delay="40"
+            style="width: 40px; height: 40px"
+            >
+        </lord-icon>
+        <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">See Info</span>
+      </div>
+      <div class="card-content">
+
+        <h1 class="text-xl font-bold text-white">Amazon Clone</h1>
+        <p><h3 class="text-lg text-white"><span class="text-xl block">Technologies I used:</span> NextJS, HTML, CSS, Redux, Tailwind CSS, Stripe, Firebase</h3> </p>
+        <a href="http://travel.isa-codes.co/" class="visit-icon" target="_blank">
+        <lord-icon
+          src="https://cdn.lordicon.com/udwhdpod.json"
+          trigger="loop"
+          colors="primary:#ffffff,secondary:#3f3fff"
+          stroke="90"
+          delay="40"
+          style="width: 40px; height: 40px"
+          class="icon"
+        >
+        </lord-icon>
+        <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">Visit Site</span>
+        </a>
+      </div>
+    </div>
+    <div
+    class="card  p-3 max-w-sm rounded-lg border-2 border-nav bg-body" id="work-card4"
+  >
+    <img
+      src="./../assets/images/Reactmovies.png"
+      alt=""
+    />
+    <div class="click-open mt-1">
+
+      <lord-icon
+      src="https://cdn.lordicon.com/tyounuzx.json"
+          trigger="loop"
+          colors="primary:#ffffff,secondary:#3f3fff"
+          stroke="90"
+          delay="40"
+          style="width: 40px; height: 40px"
+          >
+      </lord-icon>
+      <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">See Info</span>
+    </div>
+    <div class="card-content">
+
+      <h1 class="text-xl font-bold text-white">Amazon Clone</h1>
+      <p><h3 class="text-lg text-white"><span class="text-xl block">Technologies I used:</span> NextJS, HTML, CSS, Redux, Tailwind CSS, Stripe, Firebase</h3> </p>
+      <a href="https://xcoder-movies-reactjs.vercel.app/" class="visit-icon" target="_blank">
+      <lord-icon
+        src="https://cdn.lordicon.com/udwhdpod.json"
+        trigger="loop"
+        colors="primary:#ffffff,secondary:#3f3fff"
+        stroke="90"
+        delay="40"
+        style="width: 40px; height: 40px"
+        class="icon"
+      >
+      </lord-icon>
+      <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">Visit Site</span>
+      </a>
+    </div>
+  </div>
+        <div
+          class="card  p-3 max-w-sm rounded-lg border-2 border-nav bg-body" id="work-card5"
+        >
+          <img
+            src="./../assets/images/Image gallery.png"
+            alt=""
+          />
+          <div class="click-open mt-1">
+
+            <lord-icon
+            src="https://cdn.lordicon.com/tyounuzx.json"
+                trigger="loop"
+                colors="primary:#ffffff,secondary:#3f3fff"
+                stroke="90"
+                delay="40"
+                style="width: 40px; height: 40px"
+                >
+            </lord-icon>
+            <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">See Info</span>
+          </div>
+          <div class="card-content">
+
+            <h1 class="text-xl font-bold text-white">Amazon Clone</h1>
+            <p><h3 class="text-lg text-white"><span class="text-xl block">Technologies I used:</span> NextJS, HTML, CSS, Redux, Tailwind CSS, Stripe, Firebase</h3> </p>
+            <a href="https://xsearch-gallery.vercel.app/" class="visit-icon" target="_blank">
+            <lord-icon
+              src="https://cdn.lordicon.com/udwhdpod.json"
+              trigger="loop"
+              colors="primary:#ffffff,secondary:#3f3fff"
+              stroke="90"
+              delay="40"
+              style="width: 40px; height: 40px"
+              class="icon"
+            >
+            </lord-icon>
+            <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">Visit Site</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+    <script src="./../js/card.js"></script>
+    <script src="./../js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.tag ul li {
+  margin: 0px 6px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 4px 0px;
+  display: inline-block;
+}
+.tag ul li span {
+  color: #fff;
+  cursor: url(../assets/svgs/pointinghand.svg), pointer;
+  border: 1px solid var(--primary-background-color);
+  padding: 4px 10px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.tag ul li span:hover {
+  background-color: var(--primary-background-color);
+  color: #fff;
+}

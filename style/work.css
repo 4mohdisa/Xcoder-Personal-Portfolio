@@ -1,0 +1,33 @@
+.card {
+  cursor: url(../assets/svgs/pointinghand.svg), pointer;
+}
+.card img {
+  width: 100%;
+  object-fit: cover;
+  height: 12.5rem;
+  border-radius: 0.5rem;
+}
+.card .click-open {
+  display: none;
+}
+.card:hover .click-open {
+  display: block;
+}
+.card.active .click-open {
+  display: none;
+}
+.card .card-content {
+  margin-top: 0.5rem;
+  display: none;
+  transition: all 0.5s;
+}
+
+.card.active .card-content {
+  display: block;
+}
+.card .card-content .visit-icon .visit-text {
+  opacity: 0;
+}
+.card .card-content .visit-icon:hover .visit-text {
+  opacity: 1;
+}

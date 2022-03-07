@@ -1,0 +1,183 @@
+.mh-professional-progress li {
+  display: inline-block;
+  margin: 0 auto;
+  float: none;
+  width: 48%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.mh-progress {
+  margin-bottom: 10px;
+  font: 900 1.14285/1 Cinzerl, cursive !important;
+  font-size: 20px;
+  color: white !important;
+  cursor: url(../assets/svgs/pointinghand.svg), pointer;
+}
+.mh-progress .progressbar-text {
+  color: inherit !important;
+}
+.progress.progress-line {
+  height: 10px;
+  margin-right: 60px;
+}
+.progress.progress-line .progressba-text {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 60px;
+  transform: translateY(-35%);
+  text-align: center;
+}
+.mh-progress.mh-progress-circle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+.mh-progress path:nth-child(1) {
+  stroke: rgba(0, 0, 0, 0.7);
+}
+.mh-progress path:nth-child(2) {
+  stroke: var(--primary-background-color) !important;
+}
+.candidatos {
+  position: relative;
+  margin-bottom: 15px;
+}
+.candidatos .parcial {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+.candidatos .parcial .info {
+  position: relative;
+}
+.candidatos .parcial .info .name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.9;
+}
+.pr-skill-name {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.candidatos .parcial .info .percentage-num {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+.candidatos .parcial .progressBar {
+  position: relative;
+  width: 100%;
+  height: 7px;
+  margin: 39px 0 2px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.candidatos .parcial .percentagem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: var(--primary-background-color);
+  -webkit-animation-name: animationProgress;
+  -webkit-animation-duration: 3s;
+  -webkit-transition: 3s all;
+}
+@keyframes animationProgress {
+  from {
+    width: 0;
+  }
+}
+.mh-experience h3 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 60px;
+}
+.mh-experience .mh-education-details .mh-education-item {
+  margin-bottom: 30px;
+  padding: 26px 30px;
+  border-radius: 4px;
+  box-shadow: 0 25px 22px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.mh-experience .mh-education-details .mh-education-item:last-child {
+  margin-bottom: 0;
+}
+.mh-education-item h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #fff;
+}
+.mh-education-item .mh-eduyear {
+  margin: 10px 0;
+  color: var(--primary-background-color);
+}
+.mh-education-item p {
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 0;
+  color: #fff;
+}
+.mh-education {
+  padding-right: 30px;
+}
+
+.mh-work h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 60px;
+}
+.mh-work .mh-experience-details .mh-work-item {
+  margin-bottom: 30px;
+  padding: 20px 30px;
+  border-radius: 4px;
+  box-shadow: 0 25px 22px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.mh-work .mh-experience-details .mh-work-item:last-child {
+  margin-bottom: 0;
+}
+.mh-work-item h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #fff;
+}
+.mh-work .mh-experience-details .mh-work-item .mh-eduyear {
+  margin: 10px 0;
+  color: var(--primary-background-color);
+}
+.mh-work-item span {
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+}
+.work-responsibility {
+  font-size: 14px;
+  line-height: 23px;
+  margin: 2px 0;
+  color: #fff;
+}
+.work-responsibility li .fa {
+  font-size: 10px;
+  line-height: 23px;
+  margin-right: 10px;
+  color: #fff;
+}

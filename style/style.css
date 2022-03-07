@@ -1,0 +1,96 @@
+@font-face {
+  src: url(../assets/fonts/SanFranciscoDisplay-Regular.otf);
+  font-family: safbold;
+}
+::selection {
+  background-color: #3f3fff;
+  color: #fff;
+}
+html {
+  scroll-behavior: smooth;
+}
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+img {
+  width: 100%;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  widows: 10px;
+  background: #212529;
+  border-left: 0 solid white;
+  border-right: 0 solid white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-background-color);
+  width: 0;
+  height: 35%;
+  transition: 0.5s ease;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+body {
+  background: #17171f;
+  height: 2000px;
+  cursor: url(../assets/svgs/cursor.svg), auto;
+}
+ol,
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  cursor: url(../assets/svgs/pointinghand.svg), pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+body {
+  font-family: "poppins";
+  color: #26313c;
+  line-height: 1.5;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.nav-dot:hover span {
+  opacity: 1;
+}
