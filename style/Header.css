@@ -24,7 +24,7 @@ header.header.\.sticky {
   box-shadow: 0 12px 12px -10px rgba(0, 0, 0, 0.514);
 }
 /* header.header.\.sticky .wrap {
-  padding: 10px 25px;
+  width: 91.1%;
 } */
 .header .logo {
   margin: 0;
@@ -207,6 +207,9 @@ header .sidemenu .line-bottom.active {
   text-transform: uppercase;
 }
 @media (max-width: 600px) {
+  .parent-div {
+    margin-left: 1.1rem;
+  }
   .header .logo {
     display: none;
   }
@@ -262,9 +265,10 @@ header .sidemenu .line-bottom.active {
 }
 @media (max-width: 991px) {
   /* header.header.\.sticky .wrap {
-    padding: 0px 35px;
-  }
-  header.header .wrap {
+    padding: 0 0;
+    width: 91.1%;
+  } */
+  /* header.header .wrap {
     padding: 0px 35px;
   } */
   .header .menu {
