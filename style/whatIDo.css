@@ -18,3 +18,8 @@
     justify-content: center;
   }
 }
+@media (max-width: 600px) {
+  .cards-container {
+    margin-left: 1.2rem;
+  }
+}
