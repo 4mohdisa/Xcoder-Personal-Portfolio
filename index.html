@@ -64,12 +64,12 @@
           </h1>
           <nav class="menu">
             <ul>
-              <li><a href="" class="nav-link">Home</a></li>
-              <li><a href="" class="nav-link">About</a></li>
-              <li><a href="" class="nav-link">Skills</a></li>
-              <li><a href="" class="nav-link">Work</a></li>
+              <li><a href="#" class="nav-link">Home</a></li>
+              <li><a href="#AboutMe" class="nav-link">About</a></li>
+              <li><a href="#MySkills" class="nav-link">Skills</a></li>
+              <li><a href="#MyWork" class="nav-link">Work</a></li>
               <li>
-                <a href="" class="btn"> Hire me</a>
+                <a href="#HireMe" class="btn"> Hire me</a>
               </li>
             </ul>
           </nav>
@@ -85,11 +85,11 @@
           </div>
           <nav>
             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Skills</a></li>
-              <li><a href="">Work</a></li>
-              <li><a href="" class="btn">Hire me</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#AboutMe">About</a></li>
+              <li><a href="#MySkills">Skills</a></li>
+              <li><a href="#MyWork">Work</a></li>
+              <li><a href="#HireMe" class="btn">Hire me</a></li>
             </ul>
           </nav>
           <footer>
@@ -131,7 +131,7 @@
               >
             </a>
             <a
-              href="#work2"
+              href="#MySkills"
               class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
             >
               <span
@@ -140,7 +140,7 @@
               >
             </a>
             <a
-              href="#work"
+              href="#MyWork"
               class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
             >
               <span
@@ -149,7 +149,7 @@
               >
             </a>
             <a
-              href="#hire"
+              href="#HireMe"
               class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
             >
               <span
@@ -170,7 +170,7 @@
             beautiful web experiences.
           </h1>
           <div class="w-full flex justify-center md:justify-start">
-            <button class="btn mt-12 space-x-3 z-20">
+            <a href="#MyWork" class="btn mt-12 space-x-3 z-20">
               <div>
                
                 <lord-icon
@@ -180,11 +180,12 @@
                   stroke="150"
                   delay="40"
                   style="width: 35px; height: 35px"
+                  class="mr-2"
                 >
                 </lord-icon>
               </div>
-              <a> View my work.</a>
-            </button>
+              View my work.
+            </a>
           </div>
         </div>
         <img
@@ -196,8 +197,8 @@
     </div>
 
     <!-- About Us Section -->
-    <section class="about py-20">
-      <div class="w-3/4 md:w-4/4 mx-auto px-2 xl:pr-5">
+    <section class="about py-20" id="AboutMe">
+      <div class="w-3/4 md:w-4/4 mx-auto px-2 xl:pr-5 ">
         <h1 class="secondary-title lg:pl-20">About me 
           <lord-icon
           src="https://cdn.lordicon.com/nobciafz.json"
@@ -252,7 +253,7 @@
               </ul>
             </div>
 
-            <button class="btn mt-12 space-x-3 z-20">
+            <a href="#" class="btn mt-12 space-x-3 z-20" download="./../assets/images/food.png">
               <div>
                 <lord-icon
                   src="https://cdn.lordicon.com/nocovwne.json"
@@ -261,11 +262,12 @@
                   stroke="90"
                   delay="40"
                   style="width: 35px; height: 35px"
+                  class="mr-2"
                 >
                 </lord-icon>
               </div>
-              <a> Download CV</a>
-            </button>
+               Download CV
+            </a>
           </div>
         </div>
       </div>
@@ -442,7 +444,7 @@
     </section>
 
     <!-- Skills & charts markup start -->
-    <section class="skills flex justify-center" id="work2">
+    <section class="skills flex justify-center" id="MySkills">
       <div class="relative mt-20 lg:mt-24">
         <div
           class="flex flex-col lg:flex-row items-center justify-center gap-0"
@@ -596,7 +598,7 @@
     <!-- Skills & charts markup start -->
 
     <!-- Work -->
-    <section class="pt-20" id="work">
+    <section class="pt-20" id="MyWork">
       <div class="w-3/4 md:w-4/4 mx-auto px-2 xl:pr-5">
         <h1 class="secondary-title lg:pl-20">My Work 
           <lord-icon
@@ -615,7 +617,7 @@
         </p>
       </div>
       <div
-        class="lg:pl-20 pl-0 sm:w-3/4 mx-auto flex items-center justify-center flex-col lg:flex-row gap-3"
+        class="lg:pl-20 pl-0 sm:w-3/4 mx-auto gallery-container gap-3"
       >
         <div
           class="card  p-3 max-w-sm rounded-lg border-2 border-nav bg-body" id="work-card"
@@ -624,22 +626,11 @@
             src="./assets/images/amazon-clone.png"
             alt=""
           />
-          <div class="click-open mt-1">
-            <lord-icon
-            src="https://cdn.lordicon.com/tyounuzx.json"
-                trigger="loop"
-                colors="primary:#ffffff,secondary:#3f3fff"
-                stroke="90"
-                delay="40"
-                style="width: 40px; height: 40px"
-                >
-            </lord-icon>
-            <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">See Info</span>
-          </div>
+
           <div class="card-content">
 
             <h1 class="text-xl font-bold text-white">Amazon Clone</h1>
-            <p><h3 class="text-lg text-white"><span class="text-xl block">Technologies I used:</span> NextJS, HTML, CSS, Redux, Tailwind CSS, Stripe, Firebase</h3> </p>
+            <p><h3 class="text-lg text-white"><span class="text-xl block">Technologies I used:</span> NextJS, Next auth, HTML, CSS, Redux, Tailwind CSS, Stripe, Firebase</h3> </p>
             <a href="https://amazon-2-0-liart.vercel.app/" class="visit-icon" target="_blank">
             <lord-icon
               src="https://cdn.lordicon.com/udwhdpod.json"
@@ -662,18 +653,7 @@
             src="./assets/images/food.png"
             alt=""
           />
-          <div class="click-open mt-1">
-            <lord-icon
-            src="https://cdn.lordicon.com/tyounuzx.json"
-                trigger="loop"
-                colors="primary:#ffffff,secondary:#3f3fff"
-                stroke="90"
-                delay="40"
-                style="width: 40px; height: 40px"
-                >
-            </lord-icon>
-            <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">See Info</span>
-          </div>
+
           <div class="card-content">
 
             <h1 class="text-xl font-bold text-white">Amazon Clone</h1>
@@ -701,18 +681,7 @@
             src="./assets/images/target.png"
             alt=""
           />
-          <div class="click-open mt-1">
-            <lord-icon
-            src="https://cdn.lordicon.com/tyounuzx.json"
-                trigger="loop"
-                colors="primary:#ffffff,secondary:#3f3fff"
-                stroke="90"
-                delay="40"
-                style="width: 40px; height: 40px"
-                >
-            </lord-icon>
-            <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">See Info</span>
-          </div>
+
           <div class="card-content">
 
             <h1 class="text-xl font-bold text-white">Amazon Clone</h1>
@@ -732,10 +701,8 @@
             </a>
           </div>
         </div>
-      </div>
-      <div
-        class="mt-3 lg:pl-20 pl-0 sm:w-3/4 mx-auto flex items-center justify-center flex-col lg:flex-row gap-3 mb-3"
-      >
+     
+
       <div
       class="card  p-3 max-w-sm rounded-lg border-2 border-nav bg-body" id="work-card3"
     >
@@ -743,19 +710,6 @@
         src="./assets/images/travel.png"
         alt=""
       />
-      <div class="click-open mt-1">
-
-        <lord-icon
-        src="https://cdn.lordicon.com/tyounuzx.json"
-            trigger="loop"
-            colors="primary:#ffffff,secondary:#3f3fff"
-            stroke="90"
-            delay="40"
-            style="width: 40px; height: 40px"
-            >
-        </lord-icon>
-        <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">See Info</span>
-      </div>
       <div class="card-content">
 
         <h1 class="text-xl font-bold text-white">Amazon Clone</h1>
@@ -782,19 +736,7 @@
       src="./assets/images/Reactmovies.png"
       alt=""
     />
-    <div class="click-open mt-1">
 
-      <lord-icon
-      src="https://cdn.lordicon.com/tyounuzx.json"
-          trigger="loop"
-          colors="primary:#ffffff,secondary:#3f3fff"
-          stroke="90"
-          delay="40"
-          style="width: 40px; height: 40px"
-          >
-      </lord-icon>
-      <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">See Info</span>
-    </div>
     <div class="card-content">
 
       <h1 class="text-xl font-bold text-white">Amazon Clone</h1>
@@ -821,7 +763,7 @@
             src="./assets/images/product landing pg.png"
             alt=""
           />
-          <div class="click-open mt-1">
+          <!-- <div class="click-open mt-1">
 
             <lord-icon
             src="https://cdn.lordicon.com/tyounuzx.json"
@@ -833,7 +775,7 @@
                 >
             </lord-icon>
             <span class="visit-text bg-black px-2 py-1 rounded-md  text-white">See Info</span>
-          </div>
+          </div> -->
           <div class="card-content">
 
             <h1 class="text-xl font-bold text-white">Amazon Clone</h1>
@@ -854,7 +796,21 @@
           </div>
         </div>
       </div>
-
+        <div class="flex align-center justify-center mt-5">
+          <a class="btn" href="#">
+            <lord-icon
+            src="https://cdn.lordicon.com/tyounuzx.json"
+            trigger="loop"
+            colors="primary:#ffffff,secondary:#ffffff"
+            stroke="150"
+            delay="40"
+            style="width: 35px; height: 35px"
+            class="mr-2"
+          >
+          </lord-icon>
+          Show more
+        </a>
+        </div>
     </section>
 
     <!-- Work -->

@@ -1,3 +1,22 @@
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 1270px) {
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 767px) {
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .card {
   cursor: url(../assets/svgs/pointinghand.svg), pointer;
 }
@@ -7,24 +26,22 @@
   height: 12.5rem;
   border-radius: 0.5rem;
 }
-.card .click-open {
+/* .card .click-open {
   display: none;
 }
 .card:hover .click-open {
   display: block;
-}
-.card.active .click-open {
+} */
+/* .card.active .click-open {
   display: none;
-}
+} */
 .card .card-content {
   margin-top: 0.5rem;
-  display: none;
-  transition: all 0.5s;
 }
 
-.card.active .card-content {
+/* .card.active .card-content {
   display: block;
-}
+} */
 .card .card-content .visit-icon .visit-text {
   opacity: 0;
 }
