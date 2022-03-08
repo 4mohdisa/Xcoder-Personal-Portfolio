@@ -20,3 +20,8 @@
 .cont {
   width: 32rem;
 }
+@media (max-width: 640px) {
+  .cont {
+    width: 20rem;
+  }
+}
