@@ -225,6 +225,11 @@ header .sidemenu .line-bottom.active {
     margin-left: 1.2rem;
   }
 }
+@media (max-width: 320px) {
+  .parent-div {
+    margin-left: 1rem;
+  }
+}
 @media (max-width: 767px) {
   .parent-div {
     margin-left: 1.3rem;

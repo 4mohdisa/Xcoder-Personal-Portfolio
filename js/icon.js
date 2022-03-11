@@ -54,3 +54,10 @@ var anime = bodymovin.loadAnimation({
   autoplay: true,
   path: "./assets/json/Editing.json",
 });
+var anime = bodymovin.loadAnimation({
+  container: document.getElementById("Banner1"),
+  renderer: "svg",
+  loop: true,
+  autoplay: true,
+  path: "./assets/json/AllType.json",
+});
