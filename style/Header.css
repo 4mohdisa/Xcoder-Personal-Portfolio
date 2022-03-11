@@ -128,7 +128,7 @@ header.header.\.sticky {
 .header .sidemenu.active {
   width: 100%;
   padding: 4rem;
-  height: 100vh;
+  height: 107vh;
 }
 .header .sidemenu .close {
   position: absolute;
@@ -220,12 +220,11 @@ header .sidemenu .line-bottom.active {
     width: 220px;
   }
 }
-/* @media (max-width: 320px) {
-  .header .logo a img {
-    margin-top: 5px;
-    width: 180px;
+@media (max-width: 370px) {
+  .parent-div {
+    margin-left: 1.2rem;
   }
-} */
+}
 @media (max-width: 767px) {
   .parent-div {
     margin-left: 1.3rem;
