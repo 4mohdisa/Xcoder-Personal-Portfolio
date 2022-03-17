@@ -3,9 +3,9 @@
   transition: all 0.7s;
   z-index: 999;
   background-color: rgb(23, 23, 31);
+  border-bottom: 1px solid rgb(23, 23, 31, 0.3);
 }
 .header .wrap {
-  /* width: 1140px; */
   width: 100%;
   max-width: 100%;
   margin: auto;
@@ -20,12 +20,9 @@
 header.header.\.sticky {
   position: fixed;
   width: 100%;
-  background-color: rgb(23, 23, 31, 0.4);
-  box-shadow: 0 12px 12px -10px rgba(0, 0, 0, 0.514);
+  background-color: rgba(23, 23, 31, 0.4);
 }
-/* header.header.\.sticky .wrap {
-  width: 91.1%;
-} */
+
 .header .logo {
   margin: 0;
   padding: 16px 0;
@@ -36,7 +33,7 @@ header.header.\.sticky {
   display: block;
 }
 .header .logo a img {
-  width: 250px;
+  width: 220px;
 }
 
 .header .logo-small {
@@ -62,7 +59,11 @@ header.header.\.sticky {
 
 .header .menu .nav-link {
   font-size: 1.2rem;
+  /* background-image: linear-gradient(160deg, #3f3fff, #9191a4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
   color: #fff;
+
   padding: 8px;
   display: block;
   transition: 0.2s;

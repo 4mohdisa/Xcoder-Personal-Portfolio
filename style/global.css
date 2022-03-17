@@ -85,3 +85,8 @@
   --tw-border-opacity: 1;
   border-color: rgba(64, 64, 83, var(--tw-border-opacity));
 }
+.Big-Text {
+  background-image: linear-gradient(200deg, #17171f98, #9191a4);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
