@@ -90,3 +90,26 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #17171f;
+  z-index: 99999999;
+}
+#status {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url(./../assets/images/preloader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}

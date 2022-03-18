@@ -6,8 +6,11 @@
   background-color: #3f3fff;
   color: #fff;
 }
+
 html {
   scroll-behavior: smooth;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 *,
@@ -58,6 +61,7 @@ ul {
 body {
   background: #17171f;
   width: 100%;
+
   height: 100%;
   cursor: url(../assets/svgs/cursor.svg), auto;
 }
