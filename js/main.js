@@ -11,6 +11,12 @@ $(document).ready(function () {
     $(".line-top").removeClass("active");
     $(".line-bottom").removeClass("active");
   });
+  $(".nav_link").click(function () {
+    $(this).removeClass("active");
+    $(".sidemenu").removeClass("active");
+    $(".line-top").removeClass("active");
+    $(".line-bottom").removeClass("active");
+  });
 
   $(window).scroll(function () {
     var sc = $(window).scrollTop();
