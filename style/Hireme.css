@@ -1,6 +1,7 @@
 .input {
   background-color: #2a2a35;
   border: 1px solid #565666;
+  color: #fff;
 }
 .input:focus {
   outline: 1px solid #9191a4;

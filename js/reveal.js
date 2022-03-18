@@ -1,5 +1,5 @@
 ScrollReveal({
-  reset: true,
+  reset: false,
   distance: "60px",
   duration: 2500,
   delay: 400,
@@ -22,9 +22,4 @@ ScrollReveal().reveal(".BTTN, .carD3, .pro-skill, .bar1", {
 ScrollReveal().reveal(".Man, .tag1", {
   delay: 300,
   origin: "top",
-});
-
-var image = document.getElementsByClassName("thumbnail");
-new simpleParallax(image, {
-  orientation: "right",
 });

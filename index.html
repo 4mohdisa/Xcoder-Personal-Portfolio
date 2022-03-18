@@ -514,8 +514,8 @@
     
         <div class="card-content">
     
-          <h1 class="text-xl font-bold text-white">Amazon Clone</h1>
-          <p><h3 class="text-lg text-white"><span class="text-xl block">Technologies I used:</span> NextJS, HTML, CSS, Redux, Tailwind CSS, Stripe, Firebase</h3> </p>
+          <h1 class="text-xl font-bold text-white">React Movies</h1>
+          <p><h3 class="text-lg text-white"><span class="text-xl block">Technologies I used:</span> Reactjs, HTML, CSS, Javascript, Api</h3> </p>
           <a href="https://xcoder-movies-reactjs.vercel.app/" class="visit-icon" target="_blank">
           <lord-icon
             src="https://cdn.lordicon.com/udwhdpod.json"
@@ -541,8 +541,8 @@
 
           <div class="card-content">
 
-            <h1 class="text-xl font-bold text-white">Amazon Clone</h1>
-            <p><h3 class="text-lg text-white"><span class="text-xl block">Technologies I used:</span> NextJS, HTML, CSS, Redux, Tailwind CSS, Stripe, Firebase</h3> </p>
+            <h1 class="text-xl font-bold text-white">Open Sea Blockchain Web3.0</h1>
+            <p><h3 class="text-lg text-white"><span class="text-xl block">Technologies I used:</span> NextJS, HTML, CSS, Redux, Tailwind CSS, Web3, Sanity, Meta Mask Authentication</h3> </p>
             <a href="https://open-sea-blockchain-web3-0.vercel.app/" class="visit-icon" target="_blank">
              
             <lord-icon
@@ -775,37 +775,44 @@
         </p>
 
         <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
-          <div class="space-y-12">
+          <form class="bar1 space-y-12">
             <div>
-              <label class="bar1 text-white block mb-6 text-xl font-bold"
+              <label for="Username" class=" text-white block mb-6 text-xl font-bold"
                 >Name</label
               >
               <input
-                class="bar2 w-full input px-4 py-4"
+                type="text"
+                id="Username"
+                placeholder="Your name"
+                class=" w-full input px-4 py-4"
               />
             </div>
             <div>
-              <label class="bar2 text-white block mb-6 text-xl font-bold"
+              <label for="Email" class=" text-white block mb-6 text-xl font-bold"
                 >Email</label
               >
               <input
+                 id="Email"
                 type="email"
-                class="bar1 w-full  input px-4 py-4"
+                class=" w-full  input px-4 py-4"
+                placeholder="Example@gmail.com"
               />
             </div>
             <div>
-              <label class="bar1 text-white block mb-6 text-xl font-bold"
+              <label for="message" class=" text-white block mb-6 text-xl font-bold"
                 >Message</label
               >
               <textarea
-                type="email"
-                class="bar2 w-full input px-4 py-4 h-56 resize-none"
+              id="message"
+                type="text"
+                placeholder="Say something..."
+                class=" w-full input px-4 py-4 h-56 resize-none"
               ></textarea>
             </div>
             <button class="BTTN btn">
               Send it!
             </button>
-          </div>
+          </form>
 
           <div class="mt-12">
             <!-- Contact info -->
@@ -817,7 +824,7 @@
             >
 
             <!-- Socials -->
-            <div class="flex mt-20 space-x-6">
+            <div class="section-paragraph flex  space-x-6">
               <!-- Skype -->
               <a href="#">
                 <img src="./assets/social-icons/icons8-facebook.svg" alt="">
@@ -846,11 +853,11 @@
   <!-- footer -->
   <footer class="mt-20 text-center lg:text-left bg-[#17171f] text-[#9191a4]">
     <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
-      <div class="mr-12 hidden lg:block">
+      <div class="bar2 mr-12 hidden lg:block">
         <span>Get connected with us on social networks:</span>
       </div>
       <div class="flex justify-center">
-        <a href="#!" class="mr-6 text-gray-600">
+        <a href="#!" class="bar1 mr-6 text-gray-600">
           <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
             class="w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 320 512">
@@ -859,7 +866,7 @@
             </path>
           </svg>
         </a>
-        <a href="#!" class="mr-6 text-gray-600">
+        <a href="#!" class="bar1 mr-6 text-gray-600">
           <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
             class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
             <path fill="currentColor"
@@ -867,7 +874,7 @@
             </path>
           </svg>
         </a>
-        <a href="#!" class="mr-6 text-gray-600">
+        <a href="#!" class="bar1 mr-6 text-gray-600">
           <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google"
             class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
             <path fill="currentColor"
@@ -875,7 +882,7 @@
             </path>
           </svg>
         </a>
-        <a href="#!" class="mr-6 text-gray-600">
+        <a href="#!" class="bar1 mr-6 text-gray-600">
           <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
             class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <path fill="currentColor"
@@ -883,7 +890,7 @@
             </path>
           </svg>
         </a>
-        <a href="#!" class="mr-6 text-gray-600">
+        <a href="#!" class="bar1 mr-6 text-gray-600">
           <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
             class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512">
@@ -892,7 +899,7 @@
             </path>
           </svg>
         </a>
-        <a href="#!" class="text-gray-600">
+        <a href="#!" class="bar1 text-gray-600">
           <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
             class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
             <path fill="currentColor"
@@ -904,7 +911,7 @@
     </div>
     <div class="mx-6 py-10 text-center md:text-left">
       <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div class="">
+        <div class="tag1">
           <h6 class="
               uppercase
               font-semibold
@@ -923,50 +930,50 @@
             </svg>
             ABOUT ME
           </h6>
-          <p>
+          <p class="tag1"> 
             Here you can use rows and columns to organize your footer content. Lorem ipsum dolor
             sit amet, consectetur adipisicing elit.
           </p>
         </div>
-        <div class="">
+        <div class="tag1">
           <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
             Services
           </h6>
-          <p class="mb-4">
+          <p class="tag1 mb-4">
             <a href="#Services" class="text-gray-600 hover:underline">Designing</a>
           </p>
-          <p class="mb-4">
+          <p class="tag1 mb-4">
             <a href="#Services" class="text-gray-600 hover:underline">Web Development</a>
           </p>
-          <p class="mb-4">
+          <p class="tag1 mb-4">
             <a href="#Services" class="text-gray-600 hover:underline">App Development</a>
           </p>
-          <p>
+          <p class="tag1">
             <a href="#Services" class="text-gray-600 hover:underline">Marketing</a>
           </p>
         </div>
-        <div class="">
+        <div class="tag1">
           <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
             Useful links
           </h6>
-          <p class="mb-4">
+          <p class="tag1 mb-4">
             <a href="#" class="text-gray-600 hover:underline">Home</a>
           </p>
-          <p class="mb-4">
+          <p class="tag1 mb-4">
             <a href="#AboutMe" class="text-gray-600 hover:underline">About</a>
           </p>
-          <p class="mb-4">
+          <p class="tag1 mb-4">
             <a href="##MySkills" class="text-gray-600 hover:underline">Skills</a>
           </p>
-          <p>
+          <p class="tag1">
             <a href="#MyWork" class="text-gray-600 hover:underline">Work</a>
           </p>
         </div>
-        <div class="">
+        <div class="tag1">
           <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
             Contact
           </h6>
-          <p class="flex items-center justify-center md:justify-start mb-4">
+          <p class="tag1 flex items-center justify-center md:justify-start mb-4">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home"
               class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
               <path fill="currentColor"
@@ -975,7 +982,7 @@
             </svg>
             Gujarat, Ahmedabad, India
           </p>
-          <p class="flex items-center justify-center md:justify-start mb-4">
+          <p class="tag1 flex items-center justify-center md:justify-start mb-4">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
               class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512">
@@ -985,7 +992,7 @@
             </svg>
             info@example.com
           </p>
-          <p class="flex items-center justify-center md:justify-start mb-4">
+          <p class="tag1 flex items-center justify-center md:justify-start mb-4">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
               class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512">
@@ -999,7 +1006,7 @@
         </div>
       </div>
     </div>
-    <div class="text-center p-6 bg-[#17171f]">
+    <div class="tag1 text-center p-6 bg-[#17171f]">
       <span>© 2022 Copyright:</span>
       <a href="#" class="text-gray-600 font-semibold" href="https://tailwind-elements.com/">Xcoder</a>
     </div>
